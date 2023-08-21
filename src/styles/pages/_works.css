@@ -1,0 +1,13 @@
+.root {
+    flex-grow: 1;
+    background-color: "primary";
+    overflow: "hidden";
+    background-size: "cover";
+    background-position: "0 400px";
+    margin-top: 20;
+    padding: 20;
+    padding-bottom: 200;
+};
+.grid {
+    width: 1000;
+}

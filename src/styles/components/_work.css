@@ -1,0 +1,61 @@
+.paper{
+    padding: "0.75rem";
+    text-align: 'left';
+    color: #0d47a1;
+  };
+.avatar {
+    margin: 10;
+    background-color: "grey";
+    color: #0d47a1;
+};
+/* .avatarContainer {
+    : {
+        marginLeft: 0;
+        marginBottom: ${theme.spacing(4)};
+    };
+}; */
+.itemContainer {
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'flex-start';
+    /* [${theme.breakpoints.down('sm')}]: {
+        display: 'flex';
+        flexDirection: 'column';
+        justifyContent: 'center';
+    }; */
+};
+.baseline {
+    align-self: 'baseline';
+    marginLeft: ${theme.spacing(4)};
+    [${theme.breakpoints.down('sm')}]: {
+        display: 'flex';
+        flexDirection: 'column';
+        textAlign: 'center';
+        alignItems: 'center';
+        width: '100%';
+        marginTop: ${theme.spacing(2)};
+        marginBottom: ${theme.spacing(2)};
+        marginLeft: 0;
+    }
+};
+.inline {
+    display: 'inline-block';
+    marginLeft: ${theme.spacing(4)};
+    [${theme.breakpoints.down('sm')}] {
+        marginLeft: 0;
+    };
+};
+.inlineRight: {
+    width: '30%';
+    textAlign: 'right';
+    marginLeft: 50;
+    alignSelf: 'flex-end';
+    [${theme.breakpoints.down('sm')}]: {
+        width: '100%';
+        margin: 0;
+        textAlign: 'center';
+    };
+};
+.backButton: {
+    marginRight: ${theme.spacing(2)};
+}

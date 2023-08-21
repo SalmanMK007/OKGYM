@@ -1,0 +1,32 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.w-webflow-badge {
+  display: none !important;
+}
+
+.footer-links {
+  font-family: Montserrat, sans-serif !important;
+  color: #607d8b !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+}
+
+.footer > a {
+  font-family: Montserrat, sans-serif !important;
+  color: #607d8b !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+}

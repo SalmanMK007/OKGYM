@@ -1,0 +1,13 @@
+.footer-links {
+    font-family: Montserrat, sans-serif !important;
+    color: #607d8b !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+  }
+  
+  footer > a {
+    font-family: Montserrat, sans-serif !important;
+    color: #607d8b !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+}
